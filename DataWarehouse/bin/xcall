@@ -1,0 +1,7 @@
+#! /bin/bash
+ 
+for i in HadoopKL102 HadoopKL103 HadoopKL104
+do
+    echo --------- $i ----------
+    ssh $i "$*"
+done
